@@ -75,15 +75,15 @@ this_directory = Path(__file__).parent
 long_description = (this_directory / "README.md").read_text()
 
 setup(
-    name="verl",
+    name="verl-cgft-fork",
     version=__version__,
     package_dir={"": "."},
     packages=find_packages(where="."),
-    url="https://github.com/volcengine/verl",
+    url="https://github.com/cgftinc/verl-cgft-fork",
     license="Apache 2.0",
-    author="Bytedance - Seed - MLSys",
-    author_email="zhangchi.usc1992@bytedance.com, gmsheng@connect.hku.hk",
-    description="verl: Volcano Engine Reinforcement Learning for LLM",
+    author="Original author: Bytedance - Seed - MLSys",
+    author_email="Original author emails: zhangchi.usc1992@bytedance.com, gmsheng@connect.hku.hk",
+    description="Fork of verl: Volcano Engine Reinforcement Learning for LLM",
     install_requires=install_requires,
     extras_require=extras_require,
     package_data={
